@@ -411,29 +411,35 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Discussion Board" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bu0-gq-BfW">
-                                <rect key="frame" x="0.0" y="84" width="414" height="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Discussion Board" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bu0-gq-BfW">
+                                <rect key="frame" x="0.0" y="94" width="414" height="119"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="200" translatesAutoresizingMaskIntoConstraints="NO" id="Ppy-xz-Nz7" userLabel="StackView">
-                                <rect key="frame" x="40" y="232" width="334" height="536.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="Ppy-xz-Nz7" userLabel="StackView">
+                                <rect key="frame" x="40" y="238.5" width="334" height="523.5"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for a post..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oLW-xk-MDv" userLabel="Search Bar">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for a post..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oLW-xk-MDv" userLabel="Search Bar">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="45.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixP-Ju-qxR">
-                                        <rect key="frame" x="0.0" y="245.5" width="334" height="45.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixP-Ju-qxR">
+                                        <rect key="frame" x="0.0" y="134.5" width="334" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="gyf-cD-7ZZ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Frequently Asked Questions" backgroundImage="appbackground2-1">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNo-3Y-63K">
-                                        <rect key="frame" x="0.0" y="491" width="334" height="45.5"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNo-3Y-63K">
+                                        <rect key="frame" x="0.0" y="373.5" width="334" height="150"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="150" id="UCV-Fs-cjR"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Post Your Own Question" backgroundImage="appbackground2-1">
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -447,9 +453,8 @@
                             <constraint firstItem="Ppy-xz-Nz7" firstAttribute="leading" secondItem="W6G-Wl-mKY" secondAttribute="leading" constant="40" id="GZE-bu-zkQ"/>
                             <constraint firstItem="Bu0-gq-BfW" firstAttribute="leading" secondItem="W6G-Wl-mKY" secondAttribute="leading" id="Lh2-q2-L8g"/>
                             <constraint firstItem="W6G-Wl-mKY" firstAttribute="trailing" secondItem="Bu0-gq-BfW" secondAttribute="trailing" id="PDc-MX-uiW"/>
-                            <constraint firstItem="Ppy-xz-Nz7" firstAttribute="top" secondItem="Bu0-gq-BfW" secondAttribute="bottom" constant="100" id="PlN-pm-JSt"/>
                             <constraint firstItem="W6G-Wl-mKY" firstAttribute="trailing" secondItem="Ppy-xz-Nz7" secondAttribute="trailing" constant="40" id="kKy-hk-XWL"/>
-                            <constraint firstItem="Bu0-gq-BfW" firstAttribute="top" secondItem="W6G-Wl-mKY" secondAttribute="top" constant="40" id="lAH-Br-4UG"/>
+                            <constraint firstItem="Bu0-gq-BfW" firstAttribute="top" secondItem="W6G-Wl-mKY" secondAttribute="top" constant="50" id="lAH-Br-4UG"/>
                             <constraint firstItem="W6G-Wl-mKY" firstAttribute="bottom" secondItem="Ppy-xz-Nz7" secondAttribute="bottom" constant="100" id="lzU-Fr-6vu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="W6G-Wl-mKY"/>
