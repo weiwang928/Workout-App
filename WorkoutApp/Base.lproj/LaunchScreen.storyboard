@@ -547,9 +547,8 @@
                                 <rect key="frame" x="-22" y="238.5" width="128" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="borderapp" translatesAutoresizingMaskIntoConstraints="NO" id="o0q-tF-usE">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="borderapp" translatesAutoresizingMaskIntoConstraints="NO" id="o0q-tF-usE">
                                 <rect key="frame" x="-183" y="-154" width="781" height="409"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhz-vJ-7A6">
                                 <rect key="frame" x="15" y="756" width="379" height="84"/>
@@ -568,6 +567,10 @@
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="o0q-tF-usE" firstAttribute="centerX" secondItem="ypv-2v-Ag7" secondAttribute="centerX" id="3jd-5O-QpH"/>
+                            <constraint firstItem="o0q-tF-usE" firstAttribute="top" secondItem="ypv-2v-Ag7" secondAttribute="top" constant="-154" id="d9C-ej-Lea"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="QfK-ci-mAs"/>
                     </view>
                 </viewController>
@@ -582,7 +585,7 @@
         <image name="3.circle.fill" catalog="system" width="64" height="60"/>
         <image name="4.circle.fill" catalog="system" width="64" height="60"/>
         <image name="appbackground2-1" width="151.5" height="83"/>
-        <image name="borderapp" width="555" height="74"/>
+        <image name="borderapp" width="277.5" height="37"/>
         <image name="play" catalog="system" width="60" height="64"/>
     </resources>
 </document>
