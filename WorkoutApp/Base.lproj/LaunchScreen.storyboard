@@ -157,15 +157,91 @@
                             <constraint firstItem="9cK-35-vf9" firstAttribute="centerX" secondItem="bVE-jL-yXW" secondAttribute="centerX" id="Njc-yJ-QsH"/>
                             <constraint firstItem="cth-TD-ceC" firstAttribute="bottom" secondItem="vlJ-PW-bXv" secondAttribute="bottom" constant="20" id="YR6-l6-AOw"/>
                             <constraint firstItem="cth-TD-ceC" firstAttribute="trailing" secondItem="MhR-1Q-iPK" secondAttribute="trailing" constant="40" id="ZIM-NJ-OuL"/>
+                            <constraint firstItem="Tt4-bM-TRf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="vlJ-PW-bXv" secondAttribute="trailing" constant="8" symbolic="YES" id="aos-X2-4vk"/>
+                            <constraint firstItem="cth-TD-ceC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KgS-Au-fit" secondAttribute="trailing" symbolic="YES" id="jay-st-Qbi"/>
                             <constraint firstItem="WgT-B9-rFP" firstAttribute="centerX" secondItem="bVE-jL-yXW" secondAttribute="centerX" id="nEw-BD-CbG"/>
+                            <constraint firstItem="cth-TD-ceC" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="UgQ-bI-Xwx" secondAttribute="trailing" symbolic="YES" id="oFw-ns-hGO"/>
                             <constraint firstItem="KgS-Au-fit" firstAttribute="leading" secondItem="cth-TD-ceC" secondAttribute="leading" constant="20" id="ooq-2P-H0a"/>
                             <constraint firstItem="Tt4-bM-TRf" firstAttribute="centerX" secondItem="bVE-jL-yXW" secondAttribute="centerX" id="qqO-Ss-YkW"/>
                             <constraint firstItem="cth-TD-ceC" firstAttribute="bottom" secondItem="Tt4-bM-TRf" secondAttribute="bottom" constant="20" id="yF2-aP-dJk"/>
+                            <constraint firstItem="MhR-1Q-iPK" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Tt4-bM-TRf" secondAttribute="trailing" constant="8" symbolic="YES" id="yOJ-dO-JlZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cth-TD-ceC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmW-cp-Qoo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.724637681159422" y="1020.5357142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7dJ-Zl-qot">
+            <objects>
+                <viewController id="9Hf-k9-SoI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HkV-0Q-beL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WE WOULD LIKE TO KNOW A FEW THINGS " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OMJ-a6-p5e">
+                                <rect key="frame" x="20" y="71" width="339" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT YOU BEFORE WE GET STARTED." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceq-dN-vkY">
+                                <rect key="frame" x="20" y="99" width="313" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldL-he-2wA">
+                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <state key="normal" title="NEXT"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acE-Uy-okx">
+                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <state key="normal" title="BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your gender?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgr-Bd-Hrh">
+                                <rect key="frame" x="117" y="377" width="180" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bQz-LH-IZs">
+                                <rect key="frame" x="143" y="432" width="127" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Male"/>
+                                    <segment title="Female"/>
+                                </segments>
+                            </segmentedControl>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="MNk-11-WED">
+                                <rect key="frame" x="171.5" y="805" width="71" height="37"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="acE-Uy-okx" firstAttribute="leading" secondItem="NxY-gf-vEh" secondAttribute="leading" constant="40" id="6XX-Ks-q7m"/>
+                            <constraint firstItem="ldL-he-2wA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MNk-11-WED" secondAttribute="trailing" constant="8" symbolic="YES" id="6p2-6q-1em"/>
+                            <constraint firstItem="MNk-11-WED" firstAttribute="centerX" secondItem="HkV-0Q-beL" secondAttribute="centerX" id="8vP-gP-UPP"/>
+                            <constraint firstItem="MNk-11-WED" firstAttribute="top" secondItem="Cgr-Bd-Hrh" secondAttribute="bottom" constant="404" id="9FH-rm-Wt2"/>
+                            <constraint firstItem="ceq-dN-vkY" firstAttribute="top" secondItem="OMJ-a6-p5e" secondAttribute="bottom" constant="7.5" id="Aa5-rG-kTN"/>
+                            <constraint firstItem="MNk-11-WED" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="acE-Uy-okx" secondAttribute="trailing" constant="8" symbolic="YES" id="DaH-oB-Q9M"/>
+                            <constraint firstItem="NxY-gf-vEh" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="OMJ-a6-p5e" secondAttribute="trailing" symbolic="YES" id="Dek-mI-5sY"/>
+                            <constraint firstItem="NxY-gf-vEh" firstAttribute="bottom" secondItem="MNk-11-WED" secondAttribute="bottom" constant="20" id="HHr-zH-Ii7"/>
+                            <constraint firstItem="Cgr-Bd-Hrh" firstAttribute="centerX" secondItem="HkV-0Q-beL" secondAttribute="centerX" id="K3d-uI-dOd"/>
+                            <constraint firstItem="OMJ-a6-p5e" firstAttribute="top" secondItem="NxY-gf-vEh" secondAttribute="top" constant="27" id="P07-iE-Wbh"/>
+                            <constraint firstItem="NxY-gf-vEh" firstAttribute="bottom" secondItem="ldL-he-2wA" secondAttribute="bottom" constant="20" id="Pha-dO-aJM"/>
+                            <constraint firstItem="OMJ-a6-p5e" firstAttribute="leading" secondItem="NxY-gf-vEh" secondAttribute="leading" constant="20" id="Xtc-Qo-HQA"/>
+                            <constraint firstItem="ceq-dN-vkY" firstAttribute="leading" secondItem="NxY-gf-vEh" secondAttribute="leading" constant="20" id="YrD-4b-Zwn"/>
+                            <constraint firstItem="NxY-gf-vEh" firstAttribute="bottom" secondItem="acE-Uy-okx" secondAttribute="bottom" constant="20" id="g9B-Rn-OUQ"/>
+                            <constraint firstItem="NxY-gf-vEh" firstAttribute="trailing" secondItem="ldL-he-2wA" secondAttribute="trailing" constant="40" id="sQO-gc-DSW"/>
+                            <constraint firstItem="NxY-gf-vEh" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ceq-dN-vkY" secondAttribute="trailing" symbolic="YES" id="xwl-IY-oKT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="NxY-gf-vEh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UFn-53-P3M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="50.724637681159422" y="1020.5357142857142"/>
         </scene>
