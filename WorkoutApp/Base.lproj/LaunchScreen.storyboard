@@ -582,7 +582,7 @@
         <image name="3.circle.fill" catalog="system" width="64" height="60"/>
         <image name="4.circle.fill" catalog="system" width="64" height="60"/>
         <image name="appbackground2-1" width="151.5" height="83"/>
-        <image name="borderapp" width="555" height="74"/>
+        <image name="borderapp" width="277.5" height="37"/>
         <image name="play" catalog="system" width="60" height="64"/>
     </resources>
 </document>
