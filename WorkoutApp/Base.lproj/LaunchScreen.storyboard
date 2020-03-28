@@ -23,7 +23,7 @@
                                 <rect key="frame" x="57" y="627" width="300" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="255,412 people are working out">
+                                    <fragment content="*insert #* people are working out">
                                         <attributes>
                                             <font key="NSFont" size="18" name="HelveticaNeue"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -244,6 +244,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UFn-53-P3M" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="50.724637681159422" y="1020.5357142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Wk-LN-TpQ">
+            <objects>
+                <viewController id="ftF-JT-8GL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1wn-Sl-us2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zXW-fi-NL2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bd7-ks-Xcl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="1651"/>
         </scene>
     </scenes>
     <resources>
