@@ -15,6 +15,8 @@
 		440BEFEC242FABB50078C5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 440BEFEA242FABB50078C5F3 /* LaunchScreen.storyboard */; };
 		440BEFF7242FABB60078C5F3 /* WorkoutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BEFF6242FABB60078C5F3 /* WorkoutAppTests.swift */; };
 		440BF002242FABB60078C5F3 /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BF001242FABB60078C5F3 /* WorkoutAppUITests.swift */; };
+		443B5923242FDF4B00839C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443B5922242FDF4B00839C60 /* Main.storyboard */; };
+		443B5925242FE1A000839C60 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B5924242FE1A000839C60 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		440BEFFD242FABB60078C5F3 /* WorkoutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkoutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		440BF001242FABB60078C5F3 /* WorkoutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAppUITests.swift; sourceTree = "<group>"; };
 		440BF003242FABB60078C5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443B5922242FDF4B00839C60 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		443B5924242FE1A000839C60 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				440BEFDF242FABB40078C5F3 /* AppDelegate.swift */,
 				440BEFE1242FABB40078C5F3 /* SceneDelegate.swift */,
 				440BEFE3242FABB40078C5F3 /* ContentView.swift */,
+				443B5924242FE1A000839C60 /* SwiftUIView.swift */,
+				443B5922242FDF4B00839C60 /* Main.storyboard */,
 				440BEFE5242FABB50078C5F3 /* Assets.xcassets */,
 				440BEFEA242FABB50078C5F3 /* LaunchScreen.storyboard */,
 				440BEFED242FABB50078C5F3 /* Info.plist */,
@@ -243,6 +249,7 @@
 				440BEFEC242FABB50078C5F3 /* LaunchScreen.storyboard in Resources */,
 				440BEFE9242FABB50078C5F3 /* Preview Assets.xcassets in Resources */,
 				440BEFE6242FABB50078C5F3 /* Assets.xcassets in Resources */,
+				443B5923242FDF4B00839C60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 			files = (
 				440BEFE0242FABB40078C5F3 /* AppDelegate.swift in Sources */,
 				440BEFE2242FABB40078C5F3 /* SceneDelegate.swift in Sources */,
+				443B5925242FE1A000839C60 /* SwiftUIView.swift in Sources */,
 				440BEFE4242FABB40078C5F3 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
