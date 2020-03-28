@@ -20,13 +20,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oAS-QY-9p8">
-                                <rect key="frame" x="86.5" y="621" width="241" height="20.5"/>
+                                <rect key="frame" x="86.5" y="605.5" width="241" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ya9-eL-Pxx">
-                                <rect key="frame" x="45" y="327" width="324" height="87"/>
+                                <rect key="frame" x="45" y="343" width="324" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="324" id="4RN-xc-DW2"/>
                                     <constraint firstAttribute="height" constant="87" id="eTC-da-7Ed"/>
@@ -43,19 +43,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have you been getting lazier and overall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AtS-vz-gTD">
-                                <rect key="frame" x="54.5" y="422" width="305" height="52"/>
+                                <rect key="frame" x="54.5" y="438" width="305" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="worse mentally?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvt-Cc-E9O">
-                                <rect key="frame" x="145" y="482" width="124" height="21"/>
+                                <rect key="frame" x="145" y="466.5" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHL-CW-ahD">
-                                <rect key="frame" x="88.5" y="528" width="237" height="48"/>
+                                <rect key="frame" x="88.5" y="512.5" width="237" height="48"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Get Back In Shape">
@@ -63,7 +63,7 @@
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*insert date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odM-FR-pHe">
-                                <rect key="frame" x="162" y="292" width="90" height="21"/>
+                                <rect key="frame" x="162" y="308" width="90" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -81,7 +81,8 @@
                             <constraint firstItem="odM-FR-pHe" firstAttribute="centerX" secondItem="9oZ-bv-urX" secondAttribute="centerX" id="Yc1-nH-DMq"/>
                             <constraint firstItem="AtS-vz-gTD" firstAttribute="top" secondItem="ya9-eL-Pxx" secondAttribute="bottom" constant="8" id="c57-ca-p96"/>
                             <constraint firstItem="AtS-vz-gTD" firstAttribute="centerX" secondItem="9oZ-bv-urX" secondAttribute="centerX" id="e71-3X-8JG"/>
-                            <constraint firstItem="ya9-eL-Pxx" firstAttribute="top" secondItem="ldj-Cq-ka5" secondAttribute="top" constant="283" id="oC8-5H-jEW"/>
+                            <constraint firstItem="Kvt-Cc-E9O" firstAttribute="top" secondItem="AtS-vz-gTD" secondAttribute="bottom" constant="8" id="mdl-s3-veZ"/>
+                            <constraint firstItem="AtS-vz-gTD" firstAttribute="top" secondItem="ya9-eL-Pxx" secondAttribute="bottom" constant="8" id="oQu-K5-JXQ"/>
                             <constraint firstItem="FHL-CW-ahD" firstAttribute="centerX" secondItem="9oZ-bv-urX" secondAttribute="centerX" id="xwB-7v-QMB"/>
                             <constraint firstItem="FHL-CW-ahD" firstAttribute="top" secondItem="Kvt-Cc-E9O" secondAttribute="bottom" constant="25" id="zC6-UN-rOD"/>
                             <constraint firstItem="AtS-vz-gTD" firstAttribute="top" secondItem="ya9-eL-Pxx" secondAttribute="bottom" constant="8" id="zJa-cO-R9Z"/>
