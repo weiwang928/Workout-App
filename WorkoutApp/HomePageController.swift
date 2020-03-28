@@ -14,4 +14,8 @@ class HomePageController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+
+    @IBAction func goToSurvey(_ sender: Any) {
+        performSegue(withIdentifier: "beginSurvey", sender: self)
+    }
 }
