@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Home Page Controller-->
         <scene sceneID="LSO-gH-h3B">
             <objects>
-                <viewController id="eyD-a4-a3j" sceneMemberID="viewController">
+                <viewController id="eyD-a4-a3j" customClass="HomePageController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9sv-uN-bn7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -101,7 +101,7 @@
         <!--View Controller-->
         <scene sceneID="zfV-os-Y79">
             <objects>
-                <viewController id="Yla-n4-axq" sceneMemberID="viewController">
+                <viewController id="Yla-n4-axq" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gwI-6J-34l">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -179,7 +179,7 @@
         <!--View Controller-->
         <scene sceneID="0NM-A0-b1O">
             <objects>
-                <viewController id="daY-Kh-nYw" sceneMemberID="viewController">
+                <viewController id="daY-Kh-nYw" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qQb-go-S48">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -259,7 +259,7 @@
         <!--View Controller-->
         <scene sceneID="px3-1d-eRF">
             <objects>
-                <viewController id="pAX-Jn-Drq" sceneMemberID="viewController">
+                <viewController id="pAX-Jn-Drq" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hmv-NM-u0H">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -365,7 +365,7 @@
         <!--View Controller-->
         <scene sceneID="IV7-xJ-Oy8">
             <objects>
-                <viewController id="dZh-5R-Lvl" sceneMemberID="viewController">
+                <viewController id="dZh-5R-Lvl" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aWR-Rm-kQm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -481,7 +481,7 @@
         <!--View Controller-->
         <scene sceneID="fcA-eB-fWj">
             <objects>
-                <viewController id="jqs-uR-odR" sceneMemberID="viewController">
+                <viewController id="jqs-uR-odR" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="v4F-LB-V6L">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -599,7 +599,7 @@
         <!--View Controller-->
         <scene sceneID="BDa-XM-13h">
             <objects>
-                <viewController id="CPE-4S-VKS" sceneMemberID="viewController">
+                <viewController id="CPE-4S-VKS" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="CJh-iQ-OlK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -677,7 +677,7 @@
         <!--View Controller-->
         <scene sceneID="UHZ-oK-EXj">
             <objects>
-                <viewController id="oRD-AA-Lb5" sceneMemberID="viewController">
+                <viewController id="oRD-AA-Lb5" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Byb-6o-W4D">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -809,11 +809,11 @@
         <image name="appbackground2-1" width="151.5" height="83"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BNm-Wo-kUj"/>
+        <segue reference="PCu-YX-EpK"/>
         <segue reference="pbT-la-Lwa"/>
         <segue reference="8vR-Qb-bMx"/>
-        <segue reference="XDl-gn-oOk"/>
+        <segue reference="FjW-8H-ua7"/>
         <segue reference="aAv-KD-8hK"/>
-        <segue reference="yq9-hs-Wrm"/>
+        <segue reference="aDs-ab-fzG"/>
     </inferredMetricsTieBreakers>
 </document>

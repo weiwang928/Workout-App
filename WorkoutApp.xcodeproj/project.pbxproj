@@ -17,6 +17,7 @@
 		440BF002242FABB60078C5F3 /* WorkoutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440BF001242FABB60078C5F3 /* WorkoutAppUITests.swift */; };
 		443B5923242FDF4B00839C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443B5922242FDF4B00839C60 /* Main.storyboard */; };
 		443B5927242FE51800839C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B5926242FE51800839C60 /* ViewController.swift */; };
+		443DC7C6243003C800E974A1 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DC7C5243003C800E974A1 /* HomePageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		440BF003242FABB60078C5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443B5922242FDF4B00839C60 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		443B5926242FE51800839C60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		443DC7C5243003C800E974A1 /* HomePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				440BEFE1242FABB40078C5F3 /* SceneDelegate.swift */,
 				440BEFE3242FABB40078C5F3 /* ContentView.swift */,
 				443B5926242FE51800839C60 /* ViewController.swift */,
+				443DC7C5243003C800E974A1 /* HomePageController.swift */,
 				443B5922242FDF4B00839C60 /* Main.storyboard */,
 				440BEFE5242FABB50078C5F3 /* Assets.xcassets */,
 				440BEFEA242FABB50078C5F3 /* LaunchScreen.storyboard */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				440BEFE0242FABB40078C5F3 /* AppDelegate.swift in Sources */,
+				443DC7C6243003C800E974A1 /* HomePageController.swift in Sources */,
 				440BEFE2242FABB40078C5F3 /* SceneDelegate.swift in Sources */,
 				443B5927242FE51800839C60 /* ViewController.swift in Sources */,
 				440BEFE4242FABB40078C5F3 /* ContentView.swift in Sources */,
