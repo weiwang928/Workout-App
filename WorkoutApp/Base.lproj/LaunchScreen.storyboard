@@ -29,13 +29,65 @@
                     <view key="view" contentMode="scaleToFill" id="bVE-jL-yXW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WE WOULD LIKE TO KNOW A FEW THINGS " lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UgQ-bI-Xwx">
+                                <rect key="frame" x="20" y="71" width="339" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT YOU BEFORE WE GET STARTED." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KgS-Au-fit">
+                                <rect key="frame" x="20" y="99" width="313" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhR-1Q-iPK">
+                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <state key="normal" title="NEXT"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlJ-PW-bXv">
+                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <state key="normal" title="BACK"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First, what's your age?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgT-B9-rFP">
+                                <rect key="frame" x="110" y="377" width="194" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Answer Here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9cK-35-vf9">
+                                <rect key="frame" x="151.5" y="431" width="111" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="5" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Tt4-bM-TRf">
+                                <rect key="frame" x="171.5" y="805" width="71" height="37"/>
+                            </pageControl>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9cK-35-vf9" firstAttribute="centerY" secondItem="bVE-jL-yXW" secondAttribute="centerY" id="06c-BJ-uo4"/>
+                            <constraint firstItem="9cK-35-vf9" firstAttribute="top" secondItem="WgT-B9-rFP" secondAttribute="bottom" constant="30" id="8rO-bV-yPG"/>
+                            <constraint firstItem="vlJ-PW-bXv" firstAttribute="leading" secondItem="cth-TD-ceC" secondAttribute="leading" constant="40" id="Ax8-v9-Cjy"/>
+                            <constraint firstItem="cth-TD-ceC" firstAttribute="bottom" secondItem="MhR-1Q-iPK" secondAttribute="bottom" constant="20" id="C6x-FV-fg2"/>
+                            <constraint firstItem="KgS-Au-fit" firstAttribute="top" secondItem="UgQ-bI-Xwx" secondAttribute="bottom" constant="7.5" id="E5X-Sp-8Ha"/>
+                            <constraint firstItem="UgQ-bI-Xwx" firstAttribute="top" secondItem="cth-TD-ceC" secondAttribute="top" constant="27" id="Fiv-cS-Q0e"/>
+                            <constraint firstItem="UgQ-bI-Xwx" firstAttribute="leading" secondItem="cth-TD-ceC" secondAttribute="leading" constant="20" id="N7E-6h-3bk"/>
+                            <constraint firstItem="9cK-35-vf9" firstAttribute="centerX" secondItem="bVE-jL-yXW" secondAttribute="centerX" id="Njc-yJ-QsH"/>
+                            <constraint firstItem="cth-TD-ceC" firstAttribute="bottom" secondItem="vlJ-PW-bXv" secondAttribute="bottom" constant="20" id="YR6-l6-AOw"/>
+                            <constraint firstItem="cth-TD-ceC" firstAttribute="trailing" secondItem="MhR-1Q-iPK" secondAttribute="trailing" constant="40" id="ZIM-NJ-OuL"/>
+                            <constraint firstItem="WgT-B9-rFP" firstAttribute="centerX" secondItem="bVE-jL-yXW" secondAttribute="centerX" id="nEw-BD-CbG"/>
+                            <constraint firstItem="KgS-Au-fit" firstAttribute="leading" secondItem="cth-TD-ceC" secondAttribute="leading" constant="20" id="ooq-2P-H0a"/>
+                            <constraint firstItem="Tt4-bM-TRf" firstAttribute="centerX" secondItem="bVE-jL-yXW" secondAttribute="centerX" id="qqO-Ss-YkW"/>
+                            <constraint firstItem="cth-TD-ceC" firstAttribute="bottom" secondItem="Tt4-bM-TRf" secondAttribute="bottom" constant="20" id="yF2-aP-dJk"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="cth-TD-ceC"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XmW-cp-Qoo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52" y="1021"/>
+            <point key="canvasLocation" x="50.724637681159422" y="1020.5357142857142"/>
         </scene>
     </scenes>
 </document>
