@@ -588,6 +588,104 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="2311.6071428571427"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="kL8-D4-0UV">
+            <objects>
+                <viewController id="6VH-1C-nSj" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NCM-Ag-o8s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bluebg" translatesAutoresizingMaskIntoConstraints="NO" id="lah-rl-Hs8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="Frequently Asked Questions" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5V9-9R-foU" userLabel="title">
+                                <rect key="frame" x="70" y="94" width="294" height="95.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Zq0-zB-S7c">
+                                <rect key="frame" x="50" y="239.5" width="314" height="572.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="What is (app name)?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJJ-Wz-vQ0">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbs-4y-ykt">
+                                        <rect key="frame" x="0.0" y="53.5" width="314" height="101.5"/>
+                                        <string key="text">(app name) is a revolutionary, student-developed web application for people who are stuck at home due to the Coronavirus quarantine but want to remain physically active!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do I use (app name)? What features does it have?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MJu-o4-y08">
+                                        <rect key="frame" x="0.0" y="184.5" width="314" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aba-pu-Z1C">
+                                        <rect key="frame" x="0.0" y="262.5" width="314" height="101.5"/>
+                                        <string key="text">After completing a prelimary survey, you'll be given a unique workout regimen, complete with activity descriptions and complementary walkthrough videos!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What do I do if I have a question/concern?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HB9-3i-DjU">
+                                        <rect key="frame" x="0.0" y="393.5" width="314" height="48"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sbU-rd-sUb">
+                                        <rect key="frame" x="0.0" y="471" width="314" height="101.5"/>
+                                        <string key="text">Built into the app is a Discussion Board, for you to ask and answer questions to and from the (app name) community! Additionally, you can contact any of the (app name) developers!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GZd-uf-ngE" firstAttribute="bottom" secondItem="lah-rl-Hs8" secondAttribute="bottom" constant="-34" id="De4-ee-rUz"/>
+                            <constraint firstItem="GZd-uf-ngE" firstAttribute="trailing" secondItem="Zq0-zB-S7c" secondAttribute="trailing" constant="50" id="Ehu-c6-fOs"/>
+                            <constraint firstItem="Zq0-zB-S7c" firstAttribute="leading" secondItem="GZd-uf-ngE" secondAttribute="leading" constant="50" id="FGs-hk-cgu"/>
+                            <constraint firstItem="GZd-uf-ngE" firstAttribute="bottom" secondItem="Zq0-zB-S7c" secondAttribute="bottom" constant="50" id="Fra-BV-NCX"/>
+                            <constraint firstItem="GZd-uf-ngE" firstAttribute="trailing" secondItem="5V9-9R-foU" secondAttribute="trailing" constant="50" id="JLo-uX-3cD"/>
+                            <constraint firstItem="lah-rl-Hs8" firstAttribute="leading" secondItem="GZd-uf-ngE" secondAttribute="leading" id="LBz-N3-6jz"/>
+                            <constraint firstItem="lah-rl-Hs8" firstAttribute="top" secondItem="GZd-uf-ngE" secondAttribute="top" constant="-44" id="OUv-JY-O70"/>
+                            <constraint firstItem="5V9-9R-foU" firstAttribute="top" secondItem="GZd-uf-ngE" secondAttribute="top" constant="50" id="PMg-eE-Guj"/>
+                            <constraint firstItem="5V9-9R-foU" firstAttribute="leading" secondItem="NCM-Ag-o8s" secondAttribute="leadingMargin" constant="50" id="Tfr-yn-pxl"/>
+                            <constraint firstItem="Zq0-zB-S7c" firstAttribute="top" secondItem="5V9-9R-foU" secondAttribute="bottom" constant="50" id="gJT-6E-nXm"/>
+                            <constraint firstItem="GZd-uf-ngE" firstAttribute="trailing" secondItem="lah-rl-Hs8" secondAttribute="trailing" id="mMc-oH-thZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GZd-uf-ngE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D2L-zx-3eW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688.40579710144937" y="1664.7321428571429"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Naa-92-gqb">
+            <objects>
+                <viewController id="KSu-8M-F6S" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hEe-kx-Ca5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="3d9-Ny-Lz2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rwH-nZ-767" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1317" y="1665"/>
+        </scene>
     </scenes>
     <resources>
         <image name="1.circle.fill" catalog="system" width="128" height="121"/>
