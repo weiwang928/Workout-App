@@ -10,8 +10,13 @@ import Foundation
 import UIKit
 
 class HomePageController: UIViewController {
+    @IBOutlet var mainView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+
+    @IBAction func goToSurvey(_ sender: Any) {
+        performSegue(withIdentifier: "beginSurvey", sender: self)
     }
 }
