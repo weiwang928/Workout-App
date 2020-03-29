@@ -18,7 +18,6 @@
 		443B5923242FDF4B00839C60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443B5922242FDF4B00839C60 /* Main.storyboard */; };
 		443B5927242FE51800839C60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443B5926242FE51800839C60 /* ViewController.swift */; };
 		443DC7C6243003C800E974A1 /* HomePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443DC7C5243003C800E974A1 /* HomePageController.swift */; };
-		C3F94F4A24302EE6006C831D /* Survey copy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3F94F4924302EE6006C831D /* Survey copy.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,7 +255,6 @@
 				440BEFE9242FABB50078C5F3 /* Preview Assets.xcassets in Resources */,
 				440BEFE6242FABB50078C5F3 /* Assets.xcassets in Resources */,
 				443B5923242FDF4B00839C60 /* Main.storyboard in Resources */,
-				C3F94F4A24302EE6006C831D /* Survey copy.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
