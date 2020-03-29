@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,21 +12,21 @@
             <objects>
                 <viewController id="eyD-a4-a3j" customClass="HomePageController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9sv-uN-bn7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="b73-n4-bTZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="950"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0b-Qm-xqy">
-                                <rect key="frame" x="86.5" y="605.5" width="241" height="20.5"/>
+                                <rect key="frame" x="86.5" y="578.5" width="241" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rb9-Da-HUD">
-                                <rect key="frame" x="45" y="343" width="324" height="87"/>
+                                <rect key="frame" x="45" y="316" width="324" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="87" id="8Yo-Tx-RIZ"/>
                                     <constraint firstAttribute="width" constant="324" id="bAa-E1-jyX"/>
@@ -43,19 +43,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have you been getting lazier and overall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nnp-qy-AZO">
-                                <rect key="frame" x="54.5" y="438" width="305" height="20.5"/>
+                                <rect key="frame" x="54.5" y="411" width="305" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="worse mentally?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XJ-Oy-iHh">
-                                <rect key="frame" x="145" y="466.5" width="124" height="21"/>
+                                <rect key="frame" x="145" y="439.5" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLZ-ed-LLb">
-                                <rect key="frame" x="88.5" y="512.5" width="237" height="48"/>
+                                <rect key="frame" x="88.5" y="485.5" width="237" height="48"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Get Back In Shape">
@@ -63,11 +63,11 @@
                                 </state>
                                 <connections>
                                     <action selector="goToSurvey:" destination="eyD-a4-a3j" eventType="touchUpInside" id="2ku-26-jAm"/>
-                                    <segue destination="Yla-n4-axq" kind="show" identifier="beginSurvey" id="aDs-ab-fzG"/>
+                                    <segue destination="Yla-n4-axq" kind="show" id="1Om-mF-KGY"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*insert date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2km-aB-OnH">
-                                <rect key="frame" x="162" y="308" width="90" height="21"/>
+                                <rect key="frame" x="162" y="281" width="90" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -93,7 +93,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YY9-Nl-NQl"/>
                     </view>
-                    <navigationItem key="navigationItem" id="KtI-ba-ogv"/>
+                    <navigationItem key="navigationItem" id="b8U-Qg-iOd"/>
                     <connections>
                         <outlet property="mainView" destination="9sv-uN-bn7" id="exh-VN-qsB"/>
                     </connections>
@@ -130,6 +130,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N61-89-LVN">
                                 <rect key="frame" x="40" y="768" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="eyD-a4-a3j" kind="show" id="eZ2-Hc-dIu"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="5v2-xY-mCK">
                                 <rect key="frame" x="132" y="782" width="150" height="2"/>
@@ -140,6 +143,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAc-c9-Xux">
                                 <rect key="frame" x="335" y="768" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="daY-Kh-nYw" kind="show" id="1d2-Dc-WiO"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your name?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f3l-va-xzo">
                                 <rect key="frame" x="110" y="358" width="194" height="24"/>
@@ -169,7 +175,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9f1-Q6-SVb"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Nuw-01-QpS"/>
+                    <navigationItem key="navigationItem" id="h1f-L2-Bvu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dT-Sa-hlx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -180,47 +186,50 @@
             <objects>
                 <viewController id="daY-Kh-nYw" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jSv-Ik-Frc" userLabel="Gender">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iBY-G4-vsI">
-                                <rect key="frame" x="122" y="157" width="170" height="20.5"/>
+                                <rect key="frame" x="122" y="113" width="170" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tell about yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cYG-md-bWl">
-                                <rect key="frame" x="109" y="194" width="196" height="21"/>
+                                <rect key="frame" x="109" y="150" width="196" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your gender?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSo-nJ-uLZ">
-                                <rect key="frame" x="117" y="385" width="180" height="24"/>
+                                <rect key="frame" x="117" y="358" width="180" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dMl-sA-6r5">
-                                <rect key="frame" x="143.5" y="432.5" width="127" height="32"/>
+                                <rect key="frame" x="143.5" y="405.5" width="127" height="32"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83K-xD-5MT">
-                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <rect key="frame" x="40" y="768" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.20000000298023224" translatesAutoresizingMaskIntoConstraints="NO" id="hyb-bR-qJM">
-                                <rect key="frame" x="132" y="826" width="150" height="2"/>
+                                <rect key="frame" x="132" y="782" width="150" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="msB-d1-7dX"/>
                                 </constraints>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGj-aK-aO5">
-                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <rect key="frame" x="335" y="768" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="pAX-Jn-Drq" kind="show" id="1pN-Tm-Q5u"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -243,7 +252,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pOv-3h-Qig"/>
                     </view>
-                    <navigationItem key="navigationItem" id="pIB-u6-EtK"/>
+                    <navigationItem key="navigationItem" id="svr-Ds-lbJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LER-lC-2qY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -254,45 +263,51 @@
             <objects>
                 <viewController id="pAX-Jn-Drq" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2hD-up-q5i" userLabel="Age">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5I-3h-wiV">
-                                <rect key="frame" x="122" y="157" width="170" height="20.5"/>
+                                <rect key="frame" x="122" y="113" width="170" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tell us about yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="njI-ec-Nwx">
-                                <rect key="frame" x="109" y="194" width="196" height="21"/>
+                                <rect key="frame" x="109" y="150" width="196" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your age?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ISE-Tx-Ls0">
-                                <rect key="frame" x="129.5" y="385" width="155" height="24"/>
+                                <rect key="frame" x="129.5" y="358" width="155" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Answer Here" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n1j-GS-1JP">
-                                <rect key="frame" x="151.5" y="431" width="111" height="34"/>
+                                <rect key="frame" x="151.5" y="404" width="111" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xnv-te-cSe">
-                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <rect key="frame" x="40" y="768" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="daY-Kh-nYw" kind="show" id="S66-Fd-dB9"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.40000000596046448" translatesAutoresizingMaskIntoConstraints="NO" id="Jhl-d8-VJG">
-                                <rect key="frame" x="132" y="826" width="150" height="2"/>
+                                <rect key="frame" x="132" y="782" width="150" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="3B9-jE-mKd"/>
                                 </constraints>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Dk-N5-Q4r">
-                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <rect key="frame" x="335" y="768" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="dZh-5R-Lvl" kind="show" id="mAr-V8-qmH"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -315,7 +330,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gVh-xa-GFW"/>
                     </view>
-                    <navigationItem key="navigationItem" id="T9j-po-QpX"/>
+                    <navigationItem key="navigationItem" id="tJS-Zz-89a"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j48-by-yC2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,17 +341,17 @@
             <objects>
                 <viewController id="dZh-5R-Lvl" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ogd-GQ-OrD" userLabel="WeightHeight">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2d9-uT-Hya">
-                                <rect key="frame" x="122" y="157" width="170" height="20.5"/>
+                                <rect key="frame" x="122" y="113" width="170" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tell us about yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zE2-NO-8De">
-                                <rect key="frame" x="109" y="185" width="196" height="21"/>
+                                <rect key="frame" x="109" y="141" width="196" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -376,20 +391,26 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2me-fX-eGd">
-                                <rect key="frame" x="40" y="808" width="44" height="34"/>
+                                <rect key="frame" x="40" y="754" width="44" height="34"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="pAX-Jn-Drq" kind="show" id="E1h-RP-XWW"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.60000002384185791" translatesAutoresizingMaskIntoConstraints="NO" id="zYF-ca-1g5">
-                                <rect key="frame" x="132" y="824" width="150" height="2"/>
+                                <rect key="frame" x="132" y="770" width="150" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="bRo-1z-Tbx"/>
                                 </constraints>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iil-Op-OvV">
-                                <rect key="frame" x="330" y="808" width="44" height="34"/>
+                                <rect key="frame" x="330" y="754" width="44" height="34"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="jqs-uR-odR" kind="show" id="ad8-rt-OeX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -427,7 +448,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7jU-Xu-wuz"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ihW-UT-G2C"/>
+                    <navigationItem key="navigationItem" id="VoS-uM-PmB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R6E-A2-aq4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -438,17 +459,17 @@
             <objects>
                 <viewController id="jqs-uR-odR" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2yR-LD-i8o" userLabel="PerWeek">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4x-4p-2tT">
-                                <rect key="frame" x="122" y="157" width="170" height="20.5"/>
+                                <rect key="frame" x="122" y="113" width="170" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tell us about yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOJ-zX-aa6">
-                                <rect key="frame" x="109" y="194" width="196" height="20.5"/>
+                                <rect key="frame" x="109" y="150" width="196" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -478,18 +499,24 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XwE-Yy-N8a">
-                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <rect key="frame" x="40" y="758" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="dZh-5R-Lvl" kind="show" id="5Co-PE-U7d"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.69999998807907104" translatesAutoresizingMaskIntoConstraints="NO" id="dNx-cO-CN4">
-                                <rect key="frame" x="132" y="826" width="150" height="2"/>
+                                <rect key="frame" x="132" y="772" width="150" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="zTR-bN-E2O"/>
                                 </constraints>
                             </progressView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2VZ-c7-CsZ">
-                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <rect key="frame" x="335" y="758" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="CPE-4S-VKS" kind="show" id="hiA-Ws-lSJ"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="v8C-6F-gJG">
                                 <rect key="frame" x="91.5" y="457" width="45.5" height="89.5"/>
@@ -562,7 +589,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="MAU-Lh-0Vs"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zSE-4q-Zlo"/>
+                    <navigationItem key="navigationItem" id="XQf-7V-wBZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ICu-42-4eO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -573,17 +600,17 @@
             <objects>
                 <viewController id="CPE-4S-VKS" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Os0-LV-JYx" userLabel="SpecificMuscles">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aya-6p-zte">
-                                <rect key="frame" x="122" y="157" width="170" height="20.5"/>
+                                <rect key="frame" x="122" y="113" width="170" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tell us about yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D2i-NP-mny">
-                                <rect key="frame" x="127.5" y="185" width="159.5" height="21"/>
+                                <rect key="frame" x="127.5" y="141" width="159.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -611,15 +638,21 @@
                                 </segments>
                             </segmentedControl>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWx-Ez-h3f">
-                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <rect key="frame" x="40" y="758" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="jqs-uR-odR" kind="show" id="Qve-NQ-SWe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQ3-8Y-0ts">
-                                <rect key="frame" x="332" y="812" width="39" height="30"/>
+                                <rect key="frame" x="332" y="758" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="qKT-ET-mc2" kind="show" id="vw2-Oz-W23"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.80000001192092896" translatesAutoresizingMaskIntoConstraints="NO" id="oIT-nb-0qI">
-                                <rect key="frame" x="132" y="826" width="150" height="2"/>
+                                <rect key="frame" x="132" y="772" width="150" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="cbr-2H-mYb"/>
                                 </constraints>
@@ -648,7 +681,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LJK-s6-hTp"/>
                     </view>
-                    <navigationItem key="navigationItem" id="n6k-xO-0pN"/>
+                    <navigationItem key="navigationItem" id="l3b-op-iE7"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="goI-Ww-aSK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -659,11 +692,11 @@
             <objects>
                 <viewController id="oRD-AA-Lb5" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mvp-bn-hqZ" userLabel="MuscleList">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gA7-J9-fdQ">
-                                <rect key="frame" x="122" y="162" width="170" height="21"/>
+                                <rect key="frame" x="122" y="118" width="170" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="QqF-Af-68u"/>
                                 </constraints>
@@ -672,75 +705,81 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which muscle groups do you want" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixc-uJ-Adw">
-                                <rect key="frame" x="58" y="385" width="298" height="24"/>
+                                <rect key="frame" x="58" y="331" width="298" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="to focus on?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rv1-d9-I9W">
-                                <rect key="frame" x="154" y="414" width="106" height="24"/>
+                                <rect key="frame" x="154" y="360" width="106" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shoulders" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rIc-YB-YR6">
-                                <rect key="frame" x="221" y="703" width="78" height="21"/>
+                                <rect key="frame" x="221" y="649" width="78" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Back" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mWY-6b-KJ7">
-                                <rect key="frame" x="221" y="594" width="38" height="21"/>
+                                <rect key="frame" x="221" y="540" width="38" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arms" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFC-GP-tMP">
-                                <rect key="frame" x="221" y="542" width="61" height="21"/>
+                                <rect key="frame" x="221" y="488" width="61" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chest" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2br-8O-bjc">
-                                <rect key="frame" x="221" y="650" width="46" height="21"/>
+                                <rect key="frame" x="221" y="596" width="46" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abs" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c41-Hw-oEU">
-                                <rect key="frame" x="221" y="491" width="82" height="21"/>
+                                <rect key="frame" x="221" y="437" width="82" height="21"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.89999997615814209" translatesAutoresizingMaskIntoConstraints="NO" id="GGP-PO-pDv">
-                                <rect key="frame" x="132" y="826" width="150" height="2"/>
+                                <rect key="frame" x="132" y="772" width="150" height="2"/>
                             </progressView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aTn-kZ-J6v">
-                                <rect key="frame" x="127" y="537" width="51" height="31"/>
+                                <rect key="frame" x="127" y="483" width="51" height="31"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IUm-5p-zsN">
-                                <rect key="frame" x="127" y="698" width="51" height="31"/>
+                                <rect key="frame" x="127" y="644" width="51" height="31"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uev-xe-WAC">
-                                <rect key="frame" x="127" y="645" width="51" height="31"/>
+                                <rect key="frame" x="127" y="591" width="51" height="31"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LCO-5G-c2h">
-                                <rect key="frame" x="127" y="589" width="51" height="31"/>
+                                <rect key="frame" x="127" y="535" width="51" height="31"/>
                             </switch>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OTN-AF-kd6">
-                                <rect key="frame" x="127" y="486" width="51" height="31"/>
+                                <rect key="frame" x="127" y="432" width="51" height="31"/>
                             </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJz-o5-uZu">
-                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <rect key="frame" x="335" y="758" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
+                                <connections>
+                                    <segue destination="qKT-ET-mc2" kind="show" id="qFU-rC-DfR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiC-fA-VHl">
-                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <rect key="frame" x="40" y="758" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="CPE-4S-VKS" kind="show" id="5RQ-zz-Icb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tell us about yourself" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SDg-yh-TEg">
-                                <rect key="frame" x="109" y="186" width="196" height="21"/>
+                                <rect key="frame" x="109" y="142" width="196" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -789,7 +828,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="eCR-H5-RyS"/>
                     </view>
-                    <navigationItem key="navigationItem" id="kyf-Q1-Dj4"/>
+                    <navigationItem key="navigationItem" id="7eQ-s9-P3N"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k2R-ft-x1w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -800,7 +839,7 @@
             <objects>
                 <viewController id="qKT-ET-mc2" customClass="ViewController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aNY-18-hV3" userLabel="End">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Thank You!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G1w-uk-wbV">
@@ -811,12 +850,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j50-dn-jIP">
-                                <rect key="frame" x="335" y="812" width="39" height="30"/>
+                                <rect key="frame" x="335" y="758" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="19P-qt-vpQ">
-                                <rect key="frame" x="40" y="812" width="40" height="30"/>
+                                <rect key="frame" x="40" y="758" width="40" height="30"/>
                                 <state key="normal" title="BACK"/>
+                                <connections>
+                                    <segue destination="oRD-AA-Lb5" kind="show" id="ZEC-2t-gW2"/>
+                                </connections>
                             </button>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="WQb-Qq-JKR">
                                 <rect key="frame" x="132" y="826" width="150" height="2"/>
@@ -846,7 +888,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Ww9-Sd-Jqm"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8TW-52-1CG"/>
+                    <navigationItem key="navigationItem" id="YY2-p2-5GF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aQA-FF-fUo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -856,4 +898,13 @@
     <resources>
         <image name="appbackground2-1" width="151.5" height="83"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="eZ2-Hc-dIu"/>
+        <segue reference="vw2-Oz-W23"/>
+        <segue reference="5RQ-zz-Icb"/>
+        <segue reference="Qve-NQ-SWe"/>
+        <segue reference="mAr-V8-qmH"/>
+        <segue reference="E1h-RP-XWW"/>
+        <segue reference="S66-Fd-dB9"/>
+    </inferredMetricsTieBreakers>
 </document>

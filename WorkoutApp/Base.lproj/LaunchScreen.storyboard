@@ -178,20 +178,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lnt-bs-TOH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Before we get started," textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lnt-bs-TOH">
                                 <rect key="frame" x="122" y="157" width="170" height="20.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your gender?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgr-Bd-Hrh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's your gender?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cgr-Bd-Hrh">
                                 <rect key="frame" x="117" y="377" width="180" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bQz-LH-IZs">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bQz-LH-IZs">
                                 <rect key="frame" x="143.5" y="432.5" width="127" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Male"/>
                                     <segment title="Female"/>
@@ -212,13 +215,9 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="UTP-AF-3GN" firstAttribute="centerX" secondItem="5ib-qe-JaH" secondAttribute="centerX" id="GmS-mS-sDT"/>
-                            <constraint firstItem="UTP-AF-3GN" firstAttribute="centerY" secondItem="5ib-qe-JaH" secondAttribute="centerY" id="fF9-6Q-u2d"/>
-                            <constraint firstItem="Sgs-PE-2hf" firstAttribute="centerX" secondItem="5ib-qe-JaH" secondAttribute="centerX" id="h7R-U0-07P"/>
                             <constraint firstItem="FZN-AM-i0M" firstAttribute="bottom" secondItem="1Ny-Up-q3G" secondAttribute="bottom" constant="20" id="hAN-Nh-ZjY"/>
                             <constraint firstItem="FZN-AM-i0M" firstAttribute="bottom" secondItem="Esf-lg-Prh" secondAttribute="bottom" constant="20" id="hZd-Tw-tZ7"/>
                             <constraint firstItem="FZN-AM-i0M" firstAttribute="trailing" secondItem="1Ny-Up-q3G" secondAttribute="trailing" constant="40" id="oZx-lH-3Hb"/>
-                            <constraint firstItem="76s-2h-8AY" firstAttribute="top" secondItem="FU6-gT-Epe" secondAttribute="bottom" constant="7.5" id="ssd-BM-ZdJ"/>
                             <constraint firstItem="Esf-lg-Prh" firstAttribute="leading" secondItem="FZN-AM-i0M" secondAttribute="leading" constant="40" id="xTx-Md-mTx"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="FZN-AM-i0M"/>
@@ -749,18 +748,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="Ppy-xz-Nz7" userLabel="StackView">
-                                <rect key="frame" x="40" y="240" width="334" height="522"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="89" translatesAutoresizingMaskIntoConstraints="NO" id="Ppy-xz-Nz7" userLabel="StackView">
+                                <rect key="frame" x="40" y="240" width="269" height="522"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Search for a post..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oLW-xk-MDv" userLabel="Search Bar">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="269" height="44"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ixP-Ju-qxR">
-                                        <rect key="frame" x="0.0" y="133" width="334" height="150"/>
-
+                                        <rect key="frame" x="0.0" y="133" width="269" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="wCZ-zv-iJA"/>
                                         </constraints>
@@ -769,10 +766,8 @@
                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                         </state>
                                     </button>
-s
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZNo-3Y-63K">
-                                        <rect key="frame" x="0.0" y="372" width="334" height="150"/>
-
+                                        <rect key="frame" x="0.0" y="372" width="269" height="150"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="YCv-Cd-bie"/>
                                         </constraints>
@@ -786,12 +781,10 @@ s
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="DrG-Wp-pHG" firstAttribute="trailing" secondItem="s6e-bw-CtP" secondAttribute="trailing" constant="40" id="0hT-Eb-7f9"/>
                             <constraint firstItem="kCP-8b-ESU" firstAttribute="leading" secondItem="DrG-Wp-pHG" secondAttribute="leading" id="50V-JG-QIj"/>
                             <constraint firstItem="DrG-Wp-pHG" firstAttribute="trailing" secondItem="kCP-8b-ESU" secondAttribute="trailing" id="Gw0-mS-LyG"/>
-                            <constraint firstItem="s6e-bw-CtP" firstAttribute="leading" secondItem="DrG-Wp-pHG" secondAttribute="leading" constant="40" id="aSm-Dc-DXt"/>
+                            <constraint firstAttribute="leading" secondItem="DrG-Wp-pHG" secondAttribute="leading" constant="40" id="aSm-Dc-DXt"/>
                             <constraint firstItem="kCP-8b-ESU" firstAttribute="top" secondItem="DrG-Wp-pHG" secondAttribute="top" constant="50" id="w4d-pH-7C8"/>
-                            <constraint firstItem="DrG-Wp-pHG" firstAttribute="bottom" secondItem="s6e-bw-CtP" secondAttribute="bottom" constant="100" id="yWS-bj-vgn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DrG-Wp-pHG"/>
                     </view>
@@ -902,7 +895,6 @@ s
             <point key="canvasLocation" x="28.985507246376812" y="2311.6071428571427"/>
         </scene>
     </scenes>
-    <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="1.circle.fill" catalog="system" width="64" height="60"/>
         <image name="2.circle.fill" catalog="system" width="64" height="60"/>
@@ -912,4 +904,5 @@ s
         <image name="borderapp" width="277.5" height="37"/>
         <image name="play" catalog="system" width="60" height="64"/>
     </resources>
+    <color key="tintColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
 </document>
