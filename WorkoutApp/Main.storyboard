@@ -12,21 +12,21 @@
             <objects>
                 <viewController id="eyD-a4-a3j" customClass="HomePageController" customModule="WorkoutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9sv-uN-bn7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appbackground2-1" translatesAutoresizingMaskIntoConstraints="NO" id="b73-n4-bTZ">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="950"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="255,412 people are working out" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m0b-Qm-xqy">
-                                <rect key="frame" x="86.5" y="578.5" width="241" height="20.5"/>
+                                <rect key="frame" x="86.5" y="605.5" width="241" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rb9-Da-HUD">
-                                <rect key="frame" x="45" y="316" width="324" height="87"/>
+                                <rect key="frame" x="45" y="343" width="324" height="87"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="87" id="8Yo-Tx-RIZ"/>
                                     <constraint firstAttribute="width" constant="324" id="bAa-E1-jyX"/>
@@ -43,19 +43,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Have you been getting lazier and overall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nnp-qy-AZO">
-                                <rect key="frame" x="54.5" y="411" width="305" height="20.5"/>
+                                <rect key="frame" x="54.5" y="438" width="305" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="worse mentally?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XJ-Oy-iHh">
-                                <rect key="frame" x="145" y="439.5" width="124" height="21"/>
+                                <rect key="frame" x="145" y="466.5" width="124" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLZ-ed-LLb">
-                                <rect key="frame" x="88.5" y="485.5" width="237" height="48"/>
+                                <rect key="frame" x="88.5" y="512.5" width="237" height="48"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Get Back In Shape">
@@ -66,8 +66,8 @@
                                     <segue destination="Yla-n4-axq" kind="show" id="1Om-mF-KGY"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*insert date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2km-aB-OnH">
-                                <rect key="frame" x="162" y="281" width="90" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="THIS IS THE MAIN ONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2km-aB-OnH">
+                                <rect key="frame" x="117.5" y="308" width="179" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -127,20 +127,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N61-89-LVN">
-                                <rect key="frame" x="40" y="768" width="40" height="30"/>
-                                <state key="normal" title="BACK"/>
-                                <connections>
-                                    <segue destination="eyD-a4-a3j" kind="show" id="eZ2-Hc-dIu"/>
-                                </connections>
-                            </button>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="5v2-xY-mCK">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" progress="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="5v2-xY-mCK">
                                 <rect key="frame" x="132" y="782" width="150" height="2"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="ZF3-7S-g1k"/>
                                 </constraints>
                             </progressView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAc-c9-Xux">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FAc-c9-Xux">
                                 <rect key="frame" x="335" y="768" width="39" height="30"/>
                                 <state key="normal" title="NEXT"/>
                                 <connections>
@@ -156,17 +149,13 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="N61-89-LVN" firstAttribute="baseline" secondItem="FAc-c9-Xux" secondAttribute="baseline" id="24A-sx-Fd2"/>
                             <constraint firstItem="cWF-IN-zYK" firstAttribute="centerY" secondItem="Qby-1K-xLb" secondAttribute="centerY" id="3BZ-Sh-SPQ"/>
-                            <constraint firstItem="N61-89-LVN" firstAttribute="centerY" secondItem="5v2-xY-mCK" secondAttribute="centerY" id="8pQ-gW-FBC"/>
                             <constraint firstItem="4GS-R2-ZPd" firstAttribute="leading" secondItem="9f1-Q6-SVb" secondAttribute="leading" constant="109" id="JHg-ac-jSu"/>
                             <constraint firstItem="cWF-IN-zYK" firstAttribute="centerX" secondItem="5v2-xY-mCK" secondAttribute="centerX" id="RKz-8F-UCh"/>
                             <constraint firstItem="rvD-uD-VOO" firstAttribute="centerX" secondItem="4GS-R2-ZPd" secondAttribute="centerX" id="SAT-g1-LQD"/>
                             <constraint firstItem="4GS-R2-ZPd" firstAttribute="centerX" secondItem="f3l-va-xzo" secondAttribute="centerX" id="Tlo-V6-gkR"/>
                             <constraint firstItem="rvD-uD-VOO" firstAttribute="centerX" secondItem="Qby-1K-xLb" secondAttribute="centerX" id="aPE-Op-EAO"/>
                             <constraint firstItem="rvD-uD-VOO" firstAttribute="top" secondItem="9f1-Q6-SVb" secondAttribute="top" constant="113" id="aje-bN-Zlk"/>
-                            <constraint firstItem="N61-89-LVN" firstAttribute="leading" secondItem="9f1-Q6-SVb" secondAttribute="leading" constant="40" id="aw3-FT-oao"/>
-                            <constraint firstItem="N61-89-LVN" firstAttribute="top" secondItem="9f1-Q6-SVb" secondAttribute="top" constant="768" id="bm0-VQ-jU0"/>
                             <constraint firstItem="f3l-va-xzo" firstAttribute="centerX" secondItem="cWF-IN-zYK" secondAttribute="centerX" id="c3h-N1-La4"/>
                             <constraint firstItem="9f1-Q6-SVb" firstAttribute="trailing" secondItem="FAc-c9-Xux" secondAttribute="trailing" constant="40" id="cBX-7x-wIQ"/>
                             <constraint firstItem="4GS-R2-ZPd" firstAttribute="top" secondItem="rvD-uD-VOO" secondAttribute="bottom" constant="16.5" id="erd-c2-YDc"/>
@@ -896,14 +885,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eZ2-Hc-dIu"/>
-        <segue reference="ZEC-2t-gW2"/>
         <segue reference="qFU-rC-DfR"/>
         <segue reference="5RQ-zz-Icb"/>
         <segue reference="Qve-NQ-SWe"/>
         <segue reference="5Co-PE-U7d"/>
         <segue reference="E1h-RP-XWW"/>
-        <segue reference="S66-Fd-dB9"/>
+        <segue reference="1d2-Dc-WiO"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="appbackground2-1" width="151.5" height="83"/>
